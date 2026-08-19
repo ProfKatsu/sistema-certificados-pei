@@ -1,0 +1,28 @@
+{
+  "name": "certificados-pei",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "next": "^15.5.0",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4",
+    "papaparse": "^5.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/papaparse": "^5.3.16",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
